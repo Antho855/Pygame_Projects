@@ -81,8 +81,6 @@ class Game:
             "SMALL PADDLE": (pygame.Surface((20,20)), "Pink")}
 
         # Fonts
-        instruction_font = pygame.font.Font(None, 30)
-        text_font = pygame.font.Font(None, 30)
         title_font = pygame.font.Font(None, 80)
 
         while running:
