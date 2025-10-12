@@ -56,10 +56,10 @@ class Game:
 
             self.snake.key_input()
             screen.fill(GREEN)
-            pygame.draw.rect(screen, DARK_GREEN,(OFFSET-5, OFFSET-5, CELL_SIZE*NB_CELL-10, CELL_SIZE*NB_CELL-10),5)
+            pygame.draw.rect(screen, DARK_GREEN,(OFFSET-5, OFFSET-5, CELL_SIZE*NB_CELL+10, CELL_SIZE*NB_CELL+10),5) # Border
             title_surf = title_font.render("Retro Snake", True, DARK_GREEN)
             screen.blit(title_surf, (OFFSET - 5,20))
-            score_surf = title_font.render(str(self.score), True, DARK_GREEN)
+            score_surf = title_font.render(f"Score : {self.score}", True, DARK_GREEN)
             screen.blit(score_surf, (OFFSET - 5, OFFSET + CELL_SIZE * NB_CELL + 10))
             self.draw()
 
