@@ -14,3 +14,5 @@ clock = pygame.time.Clock()
 
 SNAKE_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SNAKE_UPDATE, 200)
+
+
