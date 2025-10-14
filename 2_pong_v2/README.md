@@ -6,10 +6,6 @@ https://www.pygame.org/news
 Hi! I’m a French developer exploring video game development.
 This is the second game in my Pygame series, built in Python.
 
-## 🎮 Game Preview
-
-<video src="img_vid/pong.mp4" width="640" height="580" controls></video>
-
 ## 🕹️ Game Description
 
 Inspired by the classic Pong, with exciting twists:
