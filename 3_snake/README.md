@@ -40,7 +40,6 @@ This project helped me practice and understand key game development principles i
 
 ✅ Current goals achieved: functional gameplay and smooth controls  
 🔧 Possible future improvements:  
-- Include background music or sound effects  
 - Add multiple difficulty levels or special food bonuses  
 - Create a visual “Game Over” screen before restarting  
 
