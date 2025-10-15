@@ -47,7 +47,7 @@ Feedback is very welcome – I’m looking to improve my coding and game design 
 Clone this repository:
 
 ```
-git clone https://github.com/Antho855/the-pong-v2.git
+git clone https://github.com/Antho855/Pygame_Projects.git
 cd the-pong-v2
 ```
 

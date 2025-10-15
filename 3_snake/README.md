@@ -51,7 +51,7 @@ Feedback is always welcome — I’m constantly learning and refining my code an
 
 **1. Clone this repository:**  
 ```bash
-git clone https://github.com/Antho855/retro-snake.git
+git clone https://github.com/Antho855/Pygame_Projects.git
 cd retro-snake
 ```
 
