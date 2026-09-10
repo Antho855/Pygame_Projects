@@ -25,7 +25,7 @@ class Game:
 
     def food_collision(self):
         if self.snake.body[-1] == self.food.position:
-            food_song = pygame.mixer.Sound("3_snake/sounds/music_food.mp3")
+            food_song = pygame.mixer.Sound("sounds/music_food.mp3")
             food_song.play()
             self.food.position = self.food.generate_pos(self.snake.body)
             self.snake.grow = True
@@ -42,7 +42,7 @@ class Game:
             self.game_over()
         
     def game_over(self):
-        gameover_song = pygame.mixer.Sound("3_snake/sounds/music_gameover.mp3")
+        gameover_song = pygame.mixer.Sound("sounds/music_gameover.mp3")
         gameover_song.play()
         self.snake.reset()
         self.food.position = self.food.generate_pos(self.snake.body)

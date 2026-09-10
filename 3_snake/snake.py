@@ -22,7 +22,7 @@ class Snake:
     
     def key_input(self):
         keys = pygame.key.get_pressed()
-        move_song = pygame.mixer.Sound("3_snake/sounds/music_move.mp3")
+        move_song = pygame.mixer.Sound("sounds/music_move.mp3")
         move_song.set_volume(0.1)
         if keys[pygame.K_DOWN] and self.direction != (0,-1):
             self.direction = (0,1)
